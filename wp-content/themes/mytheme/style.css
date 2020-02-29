@@ -1,0 +1,30 @@
+/*
+Theme Name: mytheme
+Theme URI: https://lamirand-cyril.fr/
+Author: Cyril Lamirand
+Author URI: https://lamirand-cyril.fr/
+Description: Mon premier thème !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+html, body{
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.header-img{
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
